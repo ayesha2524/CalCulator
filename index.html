@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="user-input">
+            <input type="text" id="user-value">
+        </div>
+        <div class="cal-icon">
+            <div class="show-history"><i class="fas fa-clock"></i></div>
+            <div class="remove-digit"><i class="fas fa-backspace"></i></div>
+        </div>
+        <div class="line"></div>
+                <div class="history-container" style="display: none;">
+            <h3>History</h3>
+            <ul id="history-list"></ul>
+            <button id="history-clear">Clear History</button>
+        </div>
+        <div class="cal-container">
+            <div class="circle" id="c">C</div>
+            <div class="arithametic" id="brackets">()</div>
+            <div class="arithametic" id="modulus">%</div>
+            <div class="arithametic" id="divide">÷</div>
+            <div class="circle" id="seven">7</div>
+            <div class="circle" id="eight">8</div>
+            <div class="circle" id="nine">9</div>
+            <div class="arithametic" id="multiply">x</div>
+            <div class="circle" id="four">4</div>
+            <div class="circle" id="five">5</div>
+            <div class="circle" id="six">6</div>
+            <div class="arithametic" id="minus">-</div>
+            <div class="circle" id="one">1</div>
+            <div class="circle" id="two">2</div>
+            <div class="circle" id="three">3</div>
+            <div class="arithametic" id="plus">+</div>
+            <div class="circle" id="both">+/-</div>
+            <div class="circle" id="zero">0</div>
+            <div class="arithametic" id="dot">.</div>
+            <div id="equal">=</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
